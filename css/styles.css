@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('../img/bg-pattern-top.svg'), url('../img/bg-pattern-bottom.svg');
+    background-position: fixed 50% 10% 50%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+ height: 450px;
+ width: 400px;
+ background-color: white;
+ border-radius: 20px;
+}
+
+.background-top{
+    height: 150px;
+    width: 400px;
+    background-image: url("../img/bg-pattern-card.svg");
+    border-radius: 20px 20px 0px 0px;
+}
+
+.info-profile{
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    border-bottom: solid 1px hsl(0deg 0% 59% / 20%);
+}
+
+h1{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+
+.img-profile{
+    height: 100px;
+    width: 100px;
+    background-image: url('../img/image-victor.jpg');
+    background-size: cover;
+    border: solid 5px white;
+    border-radius: 100%;
+    margin-left: 145px;
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-top: 10px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(0, 0%, 59%);
+}
+
+span{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+
+.stats-container{
+    display: inline-flex;
+}
+
+.stats{
+    text-align: center;
+    padding: 30px 35px;
+}
+
+.stats p{
+    padding-top: 0;
+    margin-top: 2px;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
